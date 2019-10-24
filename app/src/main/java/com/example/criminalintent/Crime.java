@@ -17,6 +17,10 @@ public class Crime {
         Date = new Date();
     }
 
+    public UUID getId() {
+        return mId;
+    }
+
     public String getTitle() {
         return Title;
     }
